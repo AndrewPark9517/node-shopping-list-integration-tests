@@ -2,8 +2,9 @@ language: node_js
 node_js: node
 deploy:
   provider: heroku
-  api_key:
+  api_key: 
     secure: XacoiL+HuCGoYYkGGFu39zkMQ1kkDHCfXqGRqk0x664tgeMb6lPCpa8BLB8IF8C8IOi9xNgG6dqJJ7doHQ3tJKMwsEoUXrGmA8Ox8oQy8pBBS3047oCLME5ne/8MLMzRhZ3nO5vseQJb+gBO7MU3ewrKyGmgVrfDSRfOMuq29zwzEtHXQXLEiPTOGg6oUaKj1Auu/nn6AyXqX2Alk0+L6/azJ9LzuNApuW785Wj1ibdy6Df4wpD+g7TujzC8Gwgk697a4XzU8Ujag5WWDZSGE2MtIeqlBK8PlFpfbRbELkHQ3mBpWt70wyLIuBg/cf5yS0PvSN/sHf9iZyBKswzl5DPyVnkTFDtTeWnopyw5v9ysTzuAqCdS4rHorj9qGLt6T/jeOro5wwsVf9oqLElGLU2dkQJX1t8Nd6izQ4NvGBu4mTemi4hPTOJ8l84qaV07xhBkfyiEhrjDjVypZ+sqH16o0bhHhXL2FTiQFHrzFz98Jct5RkYMowT0OGODFS4B07VTsjBYPgwuK5IWjBUdxxGLBNUKQ7ZOFm3JpGf7ZCWfRLWlvh5045jl6h9xtn1ptfDUs2woM9kh/lMpZNwNbmetDdqxA1TimuMeip8Hi45D7Ij0JQlPkw7/ENoJBGGdVNPeJLuObSo1lCXhma07ChP2q+pARKDjlhC8fL0fqac=
   app: calm-inlet-96107
   on:
     repo: AndrewPark9517/node-shopping-list-integration-tests
+  skip_cleanup: true
